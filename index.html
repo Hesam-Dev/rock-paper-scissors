@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <script src="index.js" defer></script>
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top_title">
+        <img src="images/logo.svg" alt="" class="logo" />
+        <div class="score_container">
+          <p class="score_text">score</p>
+          <h1 class="score_number"></h1>
+        </div>
+      </div>
+      <div class="play">
+        <div class="pick">
+          <div class="play_btns btn_paper" data-type="paper">
+            <div class="img_container">
+              <img
+                src="images/icon-paper.svg"
+                class="img-paper"
+                alt="paper icon"
+              />
+            </div>
+          </div>
+          <div class="play_btns btn_scissors" data-type="scissors">
+            <div class="img_container">
+              <img src="images/icon-scissors.svg" alt="paper icon" />
+            </div>
+          </div>
+          <div class="play_btns btn_rock" data-type="rock">
+            <div class="img_container">
+              <img src="images/icon-rock.svg" alt="paper icon" />
+            </div>
+          </div>
+        </div>
+        <div class="result hidden">
+        </div>
+      </div>
+      <div class="box_btn_rules">
+        <button class="btn_rules">Rules</button>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="modal hidden">
+      <h1 class="modal_title">Rules</h1>
+      <img class="close_modal" src="images/icon-close.svg" alt="close btn" />
+      <div class="img-modal">
+        <img
+          class="img-rules"
+          src="images/image-rules.svg"
+          alt="rules details"
+        />
+      </div>
+    </div>
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>

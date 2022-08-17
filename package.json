@@ -1,0 +1,16 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css -o css/style.prefix.css"
+  },
+  "author": "Jonas",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0"
+  }
+}
